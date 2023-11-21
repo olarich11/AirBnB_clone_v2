@@ -1,31 +1,42 @@
-0x02. AirBnB clone - MySQL
-Tasks
-0. Fork me if you can!
-mandatory
+# 0x02. AirBnB clone - MySQL
+
+# Tasks
+
+**0. Fork me if you can!**
+
+`mandatory`
 In the industry, you will work on an existing codebase 90% of the time. Your first thoughts upon looking at it might include:
 
-“Who did this code?”
-“How it works?”
-“Where are unittests?”
-“Where is this?”
-“Why did they do that like this?”
-“I don’t understand anything.”
-“… I will refactor everything…”
-But the worst thing you could possibly do is to redo everything. Please don’t do that! Note: the existing codebase might be perfect, or it might have errors. Don’t always trust the existing codebase!
+- “Who did this code?”
+- “How it works?”
+- “Where are unittests?”
+- “Where is this?”
+- “Why did they do that like this?”
+- “I don’t understand anything.”
+- “… I will refactor everything…”
 
-For this project you will fork this codebase:
+But the worst thing you could possibly do is to `redo everything.` Please don’t do that!
 
-update the repository name to AirBnB_clone_v2
-update the README.md with your information but don’t delete the initial authors
+```Note: the existing codebase might be perfect, or it might have errors. Don’t always trust the existing codebase!
 
-1. Bug free!
-mandatory
-Do you remember the unittest module?
+For this project you will fork this `codebase:`
+
+- update the repository name to `AirBnB_clone_v2`
+
+- update the `README.md` with your information *but don’t delete the initial authors*
+
+
+**1. Bug free!**
+
+
+Do you remember the `unittest` module?
+
 
 This codebase contains many test cases. Some are missing, but the ones included cover the basic functionality of the program.
 
+
 2. Console improvements
-mandatory
+
 Update the def do_create(self, arg): function of your command interpreter (console.py) to allow for object creation with given parameters:
 
 Command syntax: create <Class name> <param 1> <param 2> <param 3>...
