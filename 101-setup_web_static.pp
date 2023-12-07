@@ -1,4 +1,4 @@
-# Set up a Configures for a web server for deployment of web_static.
+# Configures a web server for deployment of web_static.
 
 # Nginx configuration file
 $nginx_conf = "server {
@@ -89,4 +89,3 @@ file { '/etc/nginx/sites-available/default':
 exec { 'nginx restart':
   path => '/etc/init.d/'
 }
-

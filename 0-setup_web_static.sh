@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Create a web for deployment of web_static content be setting up a web server.
+# Sets up a web server for deployment of web_static.
 
 apt-get update
 apt-get install -y nginx

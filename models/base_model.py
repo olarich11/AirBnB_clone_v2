@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is the Base Model class for AirBnB"""
+"""This is the base model class for AirBnB"""
 from sqlalchemy.ext.declarative import declarative_base
 import uuid
 import models
@@ -58,7 +58,7 @@ class BaseModel:
         return self.__str__()
 
     def save(self):
-        """updates public instance attribute updated_at to current
+        """updates the public instance attribute updated_at to current
         """
         self.updated_at = datetime.now()
         models.storage.new(self)
